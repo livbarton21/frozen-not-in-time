@@ -3,3 +3,14 @@ html {
   background: repeating-linear-gradient(-25deg, #b3fbff, #b3fbff 8px, #c9fcff 8px, #c9fcff 10px);
   border-top: 8px solid #b3fbff;
 }
+
+h1{
+  color: #990073;
+  transform: rotate(-8deg);
+}
+
+p {
+  color: #c09;
+  transform: rotate(-6deg);
+  max-width: 19em;
+}
