@@ -29,7 +29,7 @@ p {
 .intro {
   text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.93);
   transform-origin: left center;
-  animation: opacity 4s linear;
+  animation: opacity 2s linear;
 }
 
 .cream-wrapper {
@@ -39,6 +39,38 @@ p {
 .cream {
   position: absolute;
 }
+
+.cherry {
+  left: calc(50% - 110px);
+  z-index: 8;
+}
+
+.vanilla {
+  left: calc(50% - 160px);
+  top: calc(50% - 80px);
+  z-index: 6;
+}
+
+.chocolate {
+  left: calc(50% - 145px);
+  top: calc(50% - -20px);
+  z-index: 5;
+}
+
+.mint {
+  left: calc(50% - 160px);
+  top: calc(50% - -120px);
+  z-index: 4;
+}
+
+.cone {
+  left: calc(50% - 150px);
+  top: calc(50% - -248px);
+  z-index: 5;
+}
+
+
+
 
 @keyframes opacity {
 
