@@ -56,20 +56,20 @@ img {
 }
 
 .cherry {
-  animation: cherry 800ms linear forwards;
+  animation: cherry 750ms linear forwards;
   top: -1200px;
   animation-delay: 2s;
-  left: calc(50% - 50px);
+  left: calc(50% - 45px);
   width: 50px;
-  z-index: 8;
+  z-index: 9;
 }
 
 .cream-vanilla {
   animation: vanilla 650ms linear forwards;
   top: -1200px;
   animation-delay: 2s;
-  left: calc(50% - 90px);
-  width: 125px;
+  left: calc(50% - 85px);
+  width: 130px;
   z-index: 8;
 }
 
@@ -78,14 +78,14 @@ img {
   animation-delay: 2s;
   top: -1200px;
   left: calc(50% - 75px);
-  width: 125px;
+  width: 130px;
   z-index: 7;
 }
 
 .cream-mint {
   animation: mint 450ms linear forwards;
   animation-delay: 2s;
-  left: calc(50% - 100px);
+  left: calc(50% - 95px);
   top: -1200px;
   width: 125px;
   z-index: 6;
@@ -94,7 +94,7 @@ img {
 .cone {
   animation: cone 350ms linear forwards;
   animation-delay: 2s;
-  left: calc(50% - 100px);
+  left: calc(50% - 95px);
   top: -1200px;
   width: 125px;
   z-index: 10;
