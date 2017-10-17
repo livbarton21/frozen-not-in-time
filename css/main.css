@@ -1,6 +1,7 @@
 html {
   font-family: "Fredoka One", sans-serif;
   background: repeating-linear-gradient(-25deg, #b3fbff, #b3fbff 8px, #c9fcff 8px, #c9fcff 10px);
+  background-color: #d4fdff;
   border-top: 8px solid #b3fbff;
 }
 
@@ -39,43 +40,43 @@ p {
 .cream {
   position: absolute;
 }
-/*
+
 .cherry {
   left: calc(50% - 110px);
-  top: -100px;
+  top: -610px;
   z-index: 8;
-  animation: drop .5s linear;
+  animation: drop .5s 1.5s linear;
   animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
 
 .vanilla {
   left: calc(50% - 160px);
-  top: -90px;
+  top: -550px;
   z-index: 6;
-  animation: drop .5s linear;
+  animation: drop .5s 1.3s linear;
   animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
 
 .chocolate {
   left: calc(50% - 145px);
-  top: -80px;
+  top: -450px;
   z-index: 5;
-  animation: drop .5s linear;
+  animation: drop .5s 1s linear;
   animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
 
 .mint {
   left: calc(50% - 160px);
-  top: -70px;
+  top: -340px;
   z-index: 4;
-  animation: drop .5s linear;
+  animation: drop .5s .5s linear;
   animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
-*/
+
 .cone {
   left: calc(50% - 150px);
   top: -200px;
@@ -93,10 +94,7 @@ p {
 
   50% {
     opacity: 0;
-  }
-
-  75% {
-    opacity: 0;
+    filter: blur(5px);
   }
 
   100% {
