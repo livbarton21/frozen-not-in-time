@@ -34,6 +34,10 @@ p {
   color: #c09;
 }
 
+.intro p {
+  margin-left: 1em;
+}
+
 .intro {
   opacity: 0;
   text-shadow: 2px 2px 2px rgba(150, 150, 150, .93);
@@ -43,37 +47,33 @@ p {
   padding-left: 2em;
 }
 
-img {
-  position: absolute;
-}
-
 .cream-wrapper {
   position: relative;
 }
 
-.cream {
+img {
   position: absolute;
 }
 
 .cherry {
-  left: calc(50% - 50px);
-  top: -1200px;
-  z-index: 8;
   animation: cherry 800ms linear forwards;
+  top: -1200px;
   animation-delay: 2s;
+  left: calc(50% - 50px);
   width: 50px;
+  z-index: 8;
 }
 
-.vanilla {
+.cream-vanilla {
   animation: vanilla 650ms linear forwards;
-  animation-delay: 2s;
   top: -1200px;
+  animation-delay: 2s;
   left: calc(50% - 90px);
   width: 125px;
   z-index: 8;
 }
 
-.chocolate {
+.cream-chocolate {
   animation: chocolate 550ms linear forwards;
   animation-delay: 2s;
   top: -1200px;
@@ -82,7 +82,7 @@ img {
   z-index: 7;
 }
 
-.mint {
+.cream-mint {
   animation: mint 450ms linear forwards;
   animation-delay: 2s;
   left: calc(50% - 100px);
