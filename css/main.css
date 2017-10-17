@@ -65,8 +65,10 @@ p {
 
 .cone {
   left: calc(50% - 150px);
-  top: calc(50% - -248px);
+  top: -250px;
   z-index: 5;
+  animation: drop 2s linear;
+  transform-origin: center bottom;
 }
 
 @keyframes opacity {
@@ -87,4 +89,17 @@ p {
     opacity: 1;
   }
 
+}
+
+@keyframes drop {
+
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(35em);
+  }
+
+  }
 }
