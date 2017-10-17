@@ -22,15 +22,10 @@ p {
   max-width: 19em;
 }
 
-.btn {
+.btn-ghost {
   border-color: #990073;
   color: #c09;
-}
-
-.btn-ghost {
-  border-color: #c09;
-  transform: rotate(-6deg);
-  max-width: 19em;
+  margin-left: 1em;
 }
 
 .btn-ghost:hover {
@@ -40,9 +35,12 @@ p {
 }
 
 .intro {
+  opacity: 0;
   text-shadow: 2px 2px 2px rgba(150, 150, 150, .93);
   transform-origin: left center;
-  animation: opacity 3s linear;
+  animation: blur 3s 700ms linear forwards;
+  animation-delay: 2s;
+  padding-left: 2em;
 }
 
 img {
@@ -58,21 +56,21 @@ img {
 }
 
 .cherry {
-  left: calc(50% - 110px);
-  top: -610px;
+  left: calc(50% - 50px);
+  top: -1200px;
   z-index: 8;
-  animation: drop .5s 1.5s linear;
-  animation-fill-mode: forwards;
-  transform-origin: center bottom;
+  animation: cherry 800ms linear forwards;
+  animation-delay: 2s;
+  width: 50px;
 }
 
 .vanilla {
-  left: calc(50% - 160px);
-  top: -550px;
-  z-index: 6;
-  animation: drop .5s 1.3s linear;
-  animation-fill-mode: forwards;
-  transform-origin: center bottom;
+  left: calc(50% - 90px);
+  top: -1200px;
+  z-index: 8;
+  animation: vanilla 650ms linear forwards;
+  width: 125px;
+  z-index: 8;
 }
 
 .chocolate {
@@ -102,31 +100,28 @@ img {
   transform-origin: center bottom;
 }
 
-@keyframes opacity {
+@keyframes blur {
 
   0% {
     opacity: 0;
-  }
-
-  50% {
-    opacity: 0;
-    filter: blur(5px);
+    filter: blur(10px);
   }
 
   100% {
     opacity: 1;
+    filter: blur(0);
   }
 
 }
 
-@keyframes drop {
+@keyframes cherry {
 
-  from {
-    transform: translateY(0);
+  0% {
+    top: -1200px;
   }
 
-  to {
-    transform: translateY(30em);
+  100% {
+    top: 10px;
   }
 
 }
