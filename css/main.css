@@ -1,9 +1,14 @@
 html {
+  border-bottom: 9px solid #b3fbff;
   font-family: "Fredoka One", sans-serif;
-  background: repeating-linear-gradient(-25deg, #b3fbff, #b3fbff 8px, #c9fcff 8px, #c9fcff 10px);
-  background-color: #d4fdff;
-  border-top: 8px solid #b3fbff;
-  border-bottom: 10px solid #b3fbff;
+}
+
+.banner {
+  background: repeating-linear-gradient(-30deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+  border-top: 10px solid #b3fbff;
+  padding-left: .5em;
+  padding-bottom: 7em;
+  overflow: hidden;
 }
 
 h1 {
