@@ -13,7 +13,7 @@ html {
 
 h1 {
   color: #990073;
-  transform: rotate(-9deg);
+  transform: rotate(-10deg);
 }
 
 p {
@@ -42,7 +42,7 @@ p {
   opacity: 0;
   text-shadow: 2px 2px 2px rgba(150, 150, 150, .93);
   transform-origin: left center;
-  animation: blur 2s 750ms linear forwards;
+  animation: blur 2s 780ms linear forwards;
   animation-delay: 2.8s;
   padding-left: 1em;
 }
@@ -58,7 +58,7 @@ img {
 .cherry {
   animation: cherry 720ms linear forwards;
   top: -1200px;
-  animation-delay: 2.1s;
+  animation-delay: 3.2s;
   left: calc(50% - 45px);
   width: 45px;
   z-index: 11;
@@ -67,7 +67,7 @@ img {
 .cream-vanilla {
   animation: vanilla 620ms linear forwards;
   top: -1200px;
-  animation-delay: 2.1s;
+  animation-delay: 1.3s;
   left: calc(50% - 85px);
   width: 128px;
   z-index: 10;
@@ -75,7 +75,7 @@ img {
 
 .cream-chocolate {
   animation: chocolate 520ms linear forwards;
-  animation-delay: 2s;
+  animation-delay: 1.2s;
   top: -1200px;
   left: calc(50% - 75px);
   width: 128px;
@@ -84,7 +84,7 @@ img {
 
 .cream-mint {
   animation: mint 420ms linear forwards;
-  animation-delay: 2s;
+  animation-delay: 1.1s;
   left: calc(50% - 92px);
   top: -1200px;
   width: 134px;
@@ -93,7 +93,7 @@ img {
 
 .cone {
   animation: cone 320ms linear forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
   left: calc(50% - 90px);
   top: -1200px;
   width: 128px;
@@ -105,7 +105,7 @@ img {
 
   0% {
     opacity: 0;
-    filter: blur(10px);
+    filter: blur(5px);
   }
 
   100% {
