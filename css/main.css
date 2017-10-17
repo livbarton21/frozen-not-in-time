@@ -39,43 +39,49 @@ p {
 .cream {
   position: absolute;
 }
-
+/*
 .cherry {
   left: calc(50% - 110px);
+  top: -100px;
   z-index: 8;
   animation: drop .5s linear;
+  animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
 
 .vanilla {
   left: calc(50% - 160px);
-  top: calc(50% - 80px);
+  top: -90px;
   z-index: 6;
   animation: drop .5s linear;
+  animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
 
 .chocolate {
   left: calc(50% - 145px);
-  top: calc(50% - -20px);
+  top: -80px;
   z-index: 5;
   animation: drop .5s linear;
+  animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
 
 .mint {
   left: calc(50% - 160px);
-  top: calc(50% - -120px);
+  top: -70px;
   z-index: 4;
-  animation: drop-mint .5s linear;
+  animation: drop .5s linear;
+  animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
-
+*/
 .cone {
   left: calc(50% - 150px);
-  top: calc(50% - -248px);
+  top: -200px;
   z-index: 5;
   animation: drop .5s linear;
+  animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
 
@@ -99,28 +105,16 @@ p {
 
 }
 
-@keyframes drop-mint {
-
-  from {
-    transform: translateY(-20em);
-  }
-
-  to {
-    transform: translateY(0);
-  }
-
-  }
-}
-
 @keyframes drop {
 
   from {
-    transform: translateY(-20em);
-  }
-
-  to {
     transform: translateY(0);
   }
 
+  to {
+    transform: translateY(30em);
   }
+
+  }
+
 }
