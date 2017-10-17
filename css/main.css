@@ -21,6 +21,10 @@ p {
   color: #c09;
 }
 
+.btn-ghost {
+  color: #c09;
+}
+
 .btn-ghost:hover {
   background-color: rgba(153, 0, 115, .2);
   border-color: #990073;
