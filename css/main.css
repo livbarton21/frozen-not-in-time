@@ -6,8 +6,8 @@ html {
 .banner {
   background: repeating-linear-gradient(-30deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
   border-top: 10px solid #b3fbff;
-  padding-left: .5em;
-  padding-bottom: 7em;
+  padding-left: 1.5em;
+  padding-bottom: 6.5em;
   overflow: hidden;
 }
 
@@ -25,7 +25,7 @@ p {
 .btn-ghost {
   border-color: #990073;
   color: #c09;
-  margin-left: 1em;
+  margin-left: .8em;
 }
 
 .btn-ghost:hover {
@@ -35,16 +35,16 @@ p {
 }
 
 .intro p {
-  margin-left: 1em;
+  margin-left: .5em;
 }
 
 .intro {
   opacity: 0;
   text-shadow: 2px 2px 2px rgba(150, 150, 150, .93);
   transform-origin: left center;
-  animation: blur 3s 700ms linear forwards;
-  animation-delay: 2s;
-  padding-left: 2em;
+  animation: blur 2s 1s linear forwards;
+  animation-delay: 2.2s;
+  padding-left: 1em;
 }
 
 .cream-wrapper {
@@ -58,7 +58,7 @@ img {
 .cherry {
   animation: cherry 750ms linear forwards;
   top: -1200px;
-  animation-delay: 2s;
+  animation-delay: 2.3s;
   left: calc(50% - 60px);
   width: 45px;
   z-index: 12;
@@ -67,7 +67,7 @@ img {
 .cream-vanilla {
   animation: vanilla 650ms linear forwards;
   top: -1200px;
-  animation-delay: 2s;
+  animation-delay: 2.1s;
   left: calc(50% - 105px);
   width: 134px;
   z-index: 11;
