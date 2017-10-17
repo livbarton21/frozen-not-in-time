@@ -34,7 +34,7 @@ p {
 .intro {
   text-shadow: 2px 2px 2px rgba(150, 150, 150, .93);
   transform-origin: left center;
-  animation: opacity 2s linear;
+  animation: opacity 3s linear;
 }
 
 .cream-wrapper {
