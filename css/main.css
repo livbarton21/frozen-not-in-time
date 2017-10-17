@@ -65,39 +65,40 @@ img {
 }
 
 .vanilla {
-  left: calc(50% - 90px);
-  top: -1200px;
-  z-index: 8;
   animation: vanilla 650ms linear forwards;
+  animation-delay: 2s;
+  top: -1200px;
+  left: calc(50% - 90px);
   width: 125px;
   z-index: 8;
 }
 
 .chocolate {
-  left: calc(50% - 145px);
-  top: -450px;
-  z-index: 5;
-  animation: drop .5s 1s linear;
-  animation-fill-mode: forwards;
-  transform-origin: center bottom;
+  animation: chocolate 550ms linear forwards;
+  animation-delay: 2s;
+  top: -1200px;
+  left: calc(50% - 75px);
+  width: 125px;
+  z-index: 7;
 }
 
 .mint {
-  left: calc(50% - 160px);
-  top: -340px;
-  z-index: 4;
-  animation: drop .5s .5s linear;
-  animation-fill-mode: forwards;
-  transform-origin: center bottom;
+  animation: mint 450ms linear forwards;
+  animation-delay: 2s;
+  left: calc(50% - 100px);
+  top: -1200px;
+  width: 125px;
+  z-index: 6;
 }
 
 .cone {
-  left: calc(50% - 150px);
-  top: -200px;
-  z-index: 5;
-  animation: drop .5s linear;
-  animation-fill-mode: forwards;
-  transform-origin: center bottom;
+  animation: cone 350ms linear forwards;
+  animation-delay: 2s;
+  left: calc(50% - 100px);
+  top: -1200px;
+  width: 125px;
+  z-index: 10;
+
 }
 
 @keyframes blur {
@@ -123,5 +124,60 @@ img {
   100% {
     top: 10px;
   }
+}
 
+@keyframes vanilla {
+
+  0% {
+    top: -1200px;
+  }
+
+  100% {
+    top: 50px;
+  }
+}
+
+@keyframes chocolate {
+
+  0% {
+    top: -1200px;
+  }
+
+  100% {
+    top: 130px;
+  }
+}
+
+@keyframes mint {
+
+  0% {
+    top: -1200px;
+  }
+
+  100% {
+    top: 220px;
+  }
+}
+
+@keyframes cone {
+
+  0% {
+    top: -1200px;
+  }
+
+  100% {
+    top: 330px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner {
+    padding-left: 9em;
+    padding-right: 8em;
+  }
+
+  .intro {
+    padding-top: 3em;
+  }
 }
