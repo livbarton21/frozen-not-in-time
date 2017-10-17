@@ -1,19 +1,19 @@
 html {
-  border-bottom: 9px solid #b3fbff;
+  border-bottom: 9.5px solid #b3fbff;
   font-family: "Fredoka One", sans-serif;
 }
 
 .banner {
   background: repeating-linear-gradient(-30deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
   border-top: 10px solid #b3fbff;
-  padding-left: 1.5em;
+  padding-left: 1.2em;
   padding-bottom: 6.5em;
   overflow: hidden;
 }
 
 h1 {
   color: #990073;
-  transform: rotate(-8deg);
+  transform: rotate(-9deg);
 }
 
 p {
@@ -25,7 +25,7 @@ p {
 .btn-ghost {
   border-color: #990073;
   color: #c09;
-  margin-left: .8em;
+  margin-left: .6em;
 }
 
 .btn-ghost:hover {
@@ -42,8 +42,8 @@ p {
   opacity: 0;
   text-shadow: 2px 2px 2px rgba(150, 150, 150, .93);
   transform-origin: left center;
-  animation: blur 2s 1s linear forwards;
-  animation-delay: 2.2s;
+  animation: blur 2s 750ms linear forwards;
+  animation-delay: 2.8s;
   padding-left: 1em;
 }
 
@@ -56,48 +56,48 @@ img {
 }
 
 .cherry {
-  animation: cherry 750ms linear forwards;
-  top: -1200px;
-  animation-delay: 2.3s;
-  left: calc(50% - 60px);
-  width: 45px;
-  z-index: 12;
-}
-
-.cream-vanilla {
-  animation: vanilla 650ms linear forwards;
+  animation: cherry 720ms linear forwards;
   top: -1200px;
   animation-delay: 2.1s;
-  left: calc(50% - 105px);
-  width: 134px;
+  left: calc(50% - 45px);
+  width: 45px;
   z-index: 11;
 }
 
-.cream-chocolate {
-  animation: chocolate 550ms linear forwards;
-  animation-delay: 2s;
+.cream-vanilla {
+  animation: vanilla 620ms linear forwards;
   top: -1200px;
-  left: calc(50% - 90px);
-  width: 134px;
+  animation-delay: 2.1s;
+  left: calc(50% - 85px);
+  width: 128px;
   z-index: 10;
 }
 
-.cream-mint {
-  animation: mint 450ms linear forwards;
+.cream-chocolate {
+  animation: chocolate 520ms linear forwards;
   animation-delay: 2s;
-  left: calc(50% - 95px);
   top: -1200px;
-  width: 134px;
+  left: calc(50% - 75px);
+  width: 128px;
   z-index: 9;
 }
 
+.cream-mint {
+  animation: mint 420ms linear forwards;
+  animation-delay: 2s;
+  left: calc(50% - 92px);
+  top: -1200px;
+  width: 134px;
+  z-index: 8;
+}
+
 .cone {
-  animation: cone 350ms linear forwards;
+  animation: cone 320ms linear forwards;
   animation-delay: 2s;
   left: calc(50% - 90px);
   top: -1200px;
-  width: 125px;
-  z-index: 10;
+  width: 128px;
+  z-index: 12;
 
 }
 
